@@ -13,13 +13,17 @@ on post-fs-data
     rm /data/vendor/gps/beidou_started
     rm /data/vendor/gps/smd_started
     rm /data/vendor/gps/lna_started
+    rm /data/vendor/gps/lna_l5_started
     rm /data/vendor/gps/sv_cno.info
+    rm /data/vendor/gps/sv_cno_glonass.info
+    rm /data/vendor/gps/sv_cno_beidou.info
+    rm /data/vendor/gps/sv_cno_gps_l5.info
 
 # GPS daemon
 service gpsd /vendor/bin/hw/gps.sh
     class main
     user gps
-    group system inet net_raw wakelock
+    group system inet net_raw wakelock radio
     capabilities BLOCK_SUSPEND
     ioprio be 0
 
