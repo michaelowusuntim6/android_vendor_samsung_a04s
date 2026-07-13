@@ -208,8 +208,3 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a04s/proprietary/vendor/etc/nfc/st21nfc_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/st21nfc_conf.txt \
     vendor/samsung/a04s/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
     vendor/samsung/a04s/proprietary/vendor/firmware/nfc/st21nfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/st21nfc_fw.bin
-
-PRODUCT_PACKAGES += \
-    android.hardware.nfc-service-st \
-    nfc_nci.st21nfc.st \
-    vendor.samsung.hardware.nfc_aidl-V1-ndk
