@@ -200,11 +200,15 @@ PRODUCT_PACKAGES += \
 #  A04s-specific NFC (ST21NFC) – replaces A13 SEC S3NRN4V
 # ============================================================
 
+# Non-ELF files: configuration, init script, firmware
 PRODUCT_COPY_FILES += \
-    vendor/samsung/a04s/proprietary/vendor/bin/hw/android.hardware.nfc-service-st:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc-service-st \
     vendor/samsung/a04s/proprietary/vendor/etc/init/nfc-service-st.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/nfc-service-st.rc \
-    vendor/samsung/a04s/proprietary/vendor/lib64/nfc_nci.st21nfc.st.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci.st21nfc.st.so \
-    vendor/samsung/a04s/proprietary/vendor/lib64/vendor.samsung.hardware.nfc_aidl-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.samsung.hardware.nfc_aidl-V1-ndk.so \
     vendor/samsung/a04s/proprietary/vendor/etc/nfc/st21nfc_conf.txt:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/st21nfc_conf.txt \
     vendor/samsung/a04s/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
     vendor/samsung/a04s/proprietary/vendor/firmware/nfc/st21nfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/st21nfc_fw.bin
+
+# ELF files: binary and shared libraries – defined as modules in Android.bp
+PRODUCT_PACKAGES += \
+    android.hardware.nfc-service-st \
+    nfc_nci.st21nfc.st \
+    vendor.samsung.hardware.nfc_aidl-V1-ndk
