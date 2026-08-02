@@ -156,16 +156,8 @@ PRODUCT_PACKAGES += \
     libwrappergps \
     vendor.samsung.hardware.gnss@2.0 \
     vendor.samsung.hardware.gnss@2.1 \
-    vendor.samsung.hardware.radio-V1-ndk \
-    vendor.samsung.hardware.radio.bridge-V1-ndk \
-    vendor.samsung.hardware.radio.channel-V1-ndk \
-    vendor.samsung.hardware.radio.data-V1-ndk \
-    vendor.samsung.hardware.radio.messaging-V1-ndk \
-    vendor.samsung.hardware.radio.sim-V1-ndk \
     manifest_android.hardware.drm@1.4-service.widevine.xml \
     vendor.samsung.hardware.radio.exclude.slsi.xml \
-    vendor.samsung.hardware.radio_manifest_2_33.xml \
-    vendor.samsung.hardware.sehradio_manifest_2_33.xml \
     cass \
     android.hardware.drm@1.4-service.widevine \
     gps \
