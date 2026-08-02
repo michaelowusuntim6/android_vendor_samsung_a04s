@@ -65,8 +65,6 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a04s/proprietary/vendor/firmware/SoundBoosterParam.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SoundBoosterParam.bin \
     vendor/samsung/a04s/proprietary/vendor/firmware/abox_tplg.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/abox_tplg.bin \
     vendor/samsung/a04s/proprietary/vendor/firmware/abox_tplg.conf:$(TARGET_COPY_OUT_VENDOR)/firmware/abox_tplg.conf \
-    vendor/samsung/a04s/proprietary/vendor/firmware/aw882xx_pid_2055a_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_pid_2055a_acf.bin \
-    vendor/samsung/a04s/proprietary/vendor/firmware/aw882xx_pid_2055b_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_pid_2055b_acf.bin \
     vendor/samsung/a04s/proprietary/vendor/firmware/calliope_dram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_dram.bin \
     vendor/samsung/a04s/proprietary/vendor/firmware/calliope_dram_2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_dram_2.bin \
     vendor/samsung/a04s/proprietary/vendor/firmware/calliope_sram.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/calliope_sram.bin \
@@ -80,18 +78,11 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a04s/proprietary/vendor/firmware/rxse.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/rxse.bin \
     vendor/samsung/a04s/proprietary/vendor/firmware/sb_others.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sb_others.bin \
     vendor/samsung/a04s/proprietary/vendor/firmware/setfile_gc02m1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gc02m1.bin \
-    vendor/samsung/a04s/proprietary/vendor/firmware/setfile_gc02m1_macro.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gc02m1_macro.bin \
-    vendor/samsung/a04s/proprietary/vendor/firmware/setfile_gc08a3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gc08a3.bin \
-    vendor/samsung/a04s/proprietary/vendor/firmware/setfile_gc5035.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_gc5035.bin \
     vendor/samsung/a04s/proprietary/vendor/firmware/setfile_jn1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/setfile_jn1.bin \
     vendor/samsung/a04s/proprietary/vendor/firmware/tdnr_GC02M1.json:$(TARGET_COPY_OUT_VENDOR)/firmware/tdnr_GC02M1.json \
-    vendor/samsung/a04s/proprietary/vendor/firmware/tdnr_GC08A3.json:$(TARGET_COPY_OUT_VENDOR)/firmware/tdnr_GC08A3.json \
-    vendor/samsung/a04s/proprietary/vendor/firmware/tdnr_GC5035.json:$(TARGET_COPY_OUT_VENDOR)/firmware/tdnr_GC5035.json \
     vendor/samsung/a04s/proprietary/vendor/firmware/tdnr_S5KJN1.json:$(TARGET_COPY_OUT_VENDOR)/firmware/tdnr_S5KJN1.json \
     vendor/samsung/a04s/proprietary/vendor/firmware/txse1.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/txse1.bin \
     vendor/samsung/a04s/proprietary/vendor/firmware/txse2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/txse2.bin \
-    vendor/samsung/a04s/proprietary/vendor/tee/00000000-0000-0000-0000-000000010081:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000010081 \
-    vendor/samsung/a04s/proprietary/vendor/tee/00000000-0000-0000-0000-000000020081:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000020081 \
     vendor/samsung/a04s/proprietary/vendor/tee/00000000-0000-0000-0000-000000534b4d:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000000534b4d \
     vendor/samsung/a04s/proprietary/vendor/tee/00000000-0000-0000-0000-000048444350:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-000048444350 \
     vendor/samsung/a04s/proprietary/vendor/tee/00000000-0000-0000-0000-0000534b504d:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-0000534b504d \
@@ -108,8 +99,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a04s/proprietary/vendor/tee/00000000-0000-0000-0000-657365636f6d:$(TARGET_COPY_OUT_VENDOR)/tee/00000000-0000-0000-0000-657365636f6d \
     vendor/samsung/a04s/proprietary/vendor/tee/driver/00000000-0000-0000-0000-494363447256:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-494363447256 \
     vendor/samsung/a04s/proprietary/vendor/tee/driver/00000000-0000-0000-0000-564c544b4456:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-564c544b4456 \
-    vendor/samsung/a04s/proprietary/vendor/tee/driver/18d9f073-18a5-4ade-9def-875e07f7f293_:$(TARGET_COPY_OUT_VENDOR)/tee/driver/18d9f073-18a5-4ade-9def-875e07f7f293_ \
-    vendor/samsung/a04s/proprietary/vendor/tee/tui/resolution_common/ID00000100:$(TARGET_COPY_OUT_VENDOR)/tee/tui/resolution_common/ID00000100
+    vendor/samsung/a04s/proprietary/vendor/tee/driver/00000000-0000-0000-0000-494363447256:$(TARGET_COPY_OUT_VENDOR)/tee/driver/00000000-0000-0000-0000-494363447256
 
 PRODUCT_PACKAGES += \
     libGLES_mali \
